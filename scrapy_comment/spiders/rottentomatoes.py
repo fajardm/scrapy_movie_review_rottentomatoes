@@ -38,6 +38,4 @@ class RottenSpider(SitemapSpider):
 
         self.movie['review_list'] = reviews
 
-        self.logger.info('RESULT 3 %s', self.movie)
-
         yield self.movie
